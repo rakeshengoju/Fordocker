@@ -1,1 +1,5 @@
-
+FROM nginx
+MAINTAINER rakesh
+LABEL this is my first own created docker file in git hub
+WORKDIR /root/myjob
+COPY index.html /usr/share/nginx/html
